@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="employee_position_form" model="ir.ui.view">
+            <field name="name">odee.employee_position.form</field>
+            <field name="model">odee.employee_position</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="project"/>
+                        <field name="date_from"/>
+                        <field name="date_to"/>
+                        <field name="responsibilities"/>
+                        <field name="skills"/>
+                        <field name="other"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</openerp>

@@ -1,0 +1,20 @@
+<openerp>
+    <data>
+        <record id="odee_employee_language_rule" model="ir.rule">
+            <field name="name">User can access and modify her own position info</field>
+            <field name="model_id" ref="model_odee_employee_position"/>
+            <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+            <field name="domain_force">[('employee', '=', uid)]</field>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_unlink" eval="True"/>
+        </record>
+
+        <record id="mananger_odee_employee_tool_rule" model="ir.rule">
+            <field name="name">HR Manager has access to position info for all users</field>
+            <field name="model_id" ref="model_odee_employee_position"/>
+            <field name="groups" eval="[(4, ref('base.group_hr_manager'))]"/>
+        </record>
+    </data>
+</openerp>

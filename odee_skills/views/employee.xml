@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="employee_form" model="ir.ui.view">
+            <field name="name">hr.employee.form</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <page string="Public Information" position="after">
+                    <page string="Skills" attrs="{'invisible': [('id', '=', False)]}">
+                        <field name="id" invisible="1"/>
+                        <group>
+                            <field name="role"/>
+                            <field name="languages" context="{'default_employee': active_id}">
+                                <tree editable="bottom">
+                                    <field name="language"/>
+                                    <field name="level"/>
+                                </tree>
+                            </field>
+                            <field name="tools" context="{'default_employee': active_id}">
+                                <tree editable="bottom">
+                                    <field name="tool"/>
+                                    <field name="level"/>
+                                </tree>
+                            </field>
+                        </group>
+                    </page>
+                </page>
+            </field>
+        </record>
+    </data>
+</openerp>

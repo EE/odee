@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* odee_skills
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-08 09:52+0000\n"
+"PO-Revision-Date: 2015-07-08 09:52+0000\n"
+"Last-Translator: Ludiwk Trammer <ludwik@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: odee_skills
+#: selection:odee.employee_language,level:0
+#: selection:odee.employee_tool,level:0
+msgid "Basic"
+msgstr "Podstawowy"
+
+#. module: odee_skills
+#: field:odee.employee_language,create_uid:0
+#: field:odee.employee_role,create_uid:0
+#: field:odee.employee_tool,create_uid:0
+#: field:odee.prog_language,create_uid:0
+#: field:odee.tool,create_uid:0
+msgid "Created by"
+msgstr "Stworzone przez"
+
+#. module: odee_skills
+#: field:odee.employee_language,create_date:0
+#: field:odee.employee_role,create_date:0
+#: field:odee.employee_tool,create_date:0
+#: field:odee.prog_language,create_date:0
+#: field:odee.tool,create_date:0
+msgid "Created on"
+msgstr "Stworzone w"
+
+#. module: odee_skills
+#: model:ir.model,name:odee_skills.model_hr_employee
+#: field:odee.employee_language,employee:0
+#: field:odee.employee_tool,employee:0
+msgid "Employee"
+msgstr "Pracownik"
+
+#. module: odee_skills
+#: selection:odee.employee_language,level:0
+#: selection:odee.employee_tool,level:0
+msgid "Good"
+msgstr "Dobry"
+
+#. module: odee_skills
+#: field:odee.employee_language,id:0
+#: field:odee.employee_role,id:0
+#: field:odee.employee_tool,id:0
+#: field:odee.prog_language,id:0
+#: field:odee.tool,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: odee_skills
+#: field:odee.employee_language,language:0
+msgid "Language"
+msgstr "Język"
+
+#. module: odee_skills
+#: field:hr.employee,languages:0
+msgid "Languages"
+msgstr "Języki"
+
+#. module: odee_skills
+#: field:odee.employee_language,write_uid:0
+#: field:odee.employee_role,write_uid:0
+#: field:odee.employee_tool,write_uid:0
+#: field:odee.prog_language,write_uid:0
+#: field:odee.tool,write_uid:0
+msgid "Last Updated by"
+msgstr "Ostatnio zaktualizowane przez"
+
+#. module: odee_skills
+#: field:odee.employee_language,write_date:0
+#: field:odee.employee_role,write_date:0
+#: field:odee.employee_tool,write_date:0
+#: field:odee.prog_language,write_date:0
+#: field:odee.tool,write_date:0
+msgid "Last Updated on"
+msgstr "Ostatnio zaktualizowane"
+
+#. module: odee_skills
+#: field:odee.employee_language,level:0
+#: field:odee.employee_tool,level:0
+msgid "Level"
+msgstr "Poziom"
+
+#. module: odee_skills
+#: field:odee.employee_role,name:0
+#: field:odee.prog_language,name:0
+#: field:odee.tool,name:0
+msgid "Name"
+msgstr "Nazwa"
+
+#. module: odee_skills
+#: view:hr.employee:odee_skills.employee_form
+msgid "Public Information"
+msgstr "Informacje publiczne"
+
+#. module: odee_skills
+#: field:hr.employee,role:0
+msgid "Role"
+msgstr "Rola"
+
+#. module: odee_skills
+#: view:hr.employee:odee_skills.employee_form
+msgid "Skills"
+msgstr "Umiejętności"
+
+#. module: odee_skills
+#: field:odee.employee_tool,tool:0
+msgid "Tool"
+msgstr "Narzędzie"
+
+#. module: odee_skills
+#: field:hr.employee,tools:0
+msgid "Tools"
+msgstr "Narzędzia"
+
+#. module: odee_skills
+#: selection:odee.employee_language,level:0
+#: selection:odee.employee_tool,level:0
+msgid "Very Good"
+msgstr "Bardzo dobry"
+

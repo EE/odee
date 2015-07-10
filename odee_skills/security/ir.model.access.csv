@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_odee_employee_role,access_odee_employee_role,model_odee_employee_role,base.group_user,1,0,1,0
+access_odee_prog_language,access_odee_prog_language,model_odee_prog_language,base.group_user,1,0,1,0
+access_odee_tool,access_odee_tool,model_odee_tool,base.group_user,1,0,1,0
+access_odee_employee_language,access_odee_employee_language,model_odee_employee_language,base.group_user,1,1,1,1
+access_odee_employee_tool,access_odee_employee_tool,model_odee_employee_tool,base.group_user,1,1,1,1
+access_manager_odee_employee_role,access_odee_employee_role,model_odee_employee_role,base.group_hr_manager,1,1,1,1
+access_manager_odee_prog_language,access_odee_prog_language,model_odee_prog_language,base.group_hr_manager,1,1,1,1
+access_manager_odee_tool,access_odee_tool,model_odee_tool,base.group_hr_manager,1,1,1,1
