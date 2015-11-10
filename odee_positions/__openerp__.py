@@ -20,6 +20,7 @@
     # any module necessary for this one to work correctly
     'depends': [
         'hr',
+        'project',
     ],
 
     # always loaded
