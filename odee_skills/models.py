@@ -2,12 +2,6 @@
 
 from openerp import models, fields
 
-LEVEL_CHOICES = [
-    ('1', 'Basic'),
-    ('2', 'Good'),
-    ('3', 'Very Good'),
-]
-
 
 class Role(models.Model):
     _name = 'odee.employee_role'
@@ -29,6 +23,15 @@ class Tool(models.Model):
 
 class EmployeeLanguage(models.Model):
     _name = 'odee.employee_language'
+    
+    LEVEL_CHOICES = [
+        ('1', 'A1'),
+        ('2', 'A2'),
+        ('3', 'B1'),
+        ('4', 'B2'),
+        ('5', 'C1'),
+        ('6', 'C2'),
+    ]
 
     language = fields.Many2one('odee.prog_language', ondelete='cascade', required=True)
     employee = fields.Many2one('hr.employee', ondelete='cascade', required=True)
@@ -38,6 +41,15 @@ class EmployeeLanguage(models.Model):
 
 class EmployeeTool(models.Model):
     _name = 'odee.employee_tool'
+    
+    LEVEL_CHOICES = [
+        ('0', '0'),
+        ('1', '1'),
+        ('2', '2'),
+        ('3', '3'),
+        ('4', '4'),
+        ('5', '5'),
+    ]
 
     tool = fields.Many2one('odee.tool', ondelete='cascade', required=True)
     employee = fields.Many2one('hr.employee', ondelete='cascade', required=True)
